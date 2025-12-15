@@ -21,7 +21,7 @@ public:
     Skills(string pn, string pc, int pa, int ps, int ss, int sa, int sb) : Player(pn, pc, pa, ps), speed(ss), acceleration(sa), ball_pass(sb) {}
 };
 
-main()
+int main()
 {
     Skills new_player("Messi", "Barcelona", 33, 10, 95, 94, 92);
     return 0;

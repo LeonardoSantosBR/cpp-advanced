@@ -25,7 +25,7 @@ class Datas : public Habilities
 {
 };
 
-main()
+int main()
 {
     Datas dados;
     return 0;
